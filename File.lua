@@ -9,6 +9,6 @@ end)
 
 UserInputService.InputBegan:Connect(function(input, gameProccesedEvent)
 	if input.KeyCode == Enum.KeyCode.E then --The key that is pressed
-		script.Parent.Visible = true --What it does
+		script.Parent.Visible = false --What it does
 	end
 end)
